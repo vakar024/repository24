@@ -1,0 +1,195 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-24T10:29:47.688Z",
+        "line": 18,
+        "name": "Eating",
+        "description": "",
+        "id": "tester-details;eating;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8889500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "There are \"12\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 10
+                }
+              ],
+              "location": "fruit.There_fruits(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "Apple",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "Oranges",
+                  "Jon"
+                ]
+              },
+              {
+                "cells": [
+                  "cucumber",
+                  "Mary"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 410500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I eat \"5\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 6
+                }
+              ],
+              "location": "fruit.I_eat_fruits(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3757500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have \"7\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 7
+                }
+              ],
+              "location": "fruit.I_have_fruits(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-24T10:29:47.930Z",
+        "line": 19,
+        "name": "Eating",
+        "description": "",
+        "id": "tester-details;eating;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1151600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "There are \"10\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 10
+                }
+              ],
+              "location": "fruit.There_fruits(String,DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "type",
+                  "with"
+                ]
+              },
+              {
+                "cells": [
+                  "Apple",
+                  "me"
+                ]
+              },
+              {
+                "cells": [
+                  "Oranges",
+                  "Jon"
+                ]
+              },
+              {
+                "cells": [
+                  "cucumber",
+                  "Mary"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 348800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I eat \"6\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 6
+                }
+              ],
+              "location": "fruit.I_eat_fruits(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 282900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have \"4\" fruits",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 7
+                }
+              ],
+              "location": "fruit.I_have_fruits(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tester Details",
+    "description": "",
+    "id": "tester-details",
+    "keyword": "Feature",
+    "uri": "classpath:cucumber2/feature/Tester.feature",
+    "tags": []
+  }
+]
